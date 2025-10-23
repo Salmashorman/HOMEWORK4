@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            background-size: cover;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-image: url(ffff.webp);
+        }
+
+        form {
+            width: 450px;
+            height: 650px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 25px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+           
+        }
+
+        .head1 {
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        .h1 {
+            text-align: center;
+            color: black;
+            padding: 5px;
+            font-size: 50px;
+        }
+
+        input {
+            border: none;
+            outline: none;
+            font-size: 30px;
+            height: 70px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 15px;
+
+        }
+
+
+        input.form-input {
+            width: 100%;
+            height: 300px;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .check {
+            
+            display: flex;
+
+            width: 50%;
+
+        }
+
+        label {
+            display: flex;
+padding: 4px 4px;
+            justify-content: center;
+
+
+            font-size: 20px;
+
+            color: black;
+
+        }
+
+        a {
+            width: 50%;
+
+            color: black;
+            font-size: 20px;
+            padding: auto;
+            border-bottom: none;
+            outline: none;
+            border-style: none;
+
+        }
+
+        button {
+            width: 90%;
+            height: 70px;
+            border: none;
+            outline: none;
+            font-size: 30px;
+            background-color: chocolate;
+            border-radius: 10px;
+        }
+
+        button:hover {
+            background-color: brown;
+        }
+
+        input.ch {
+         
+            display: flex;
+            flex-wrap: wrap;
+            
+            height: fit-content;
+            height: 30px;
+            width: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div class="head1">
+            <h1 class="h1">ACCOUNT LOGIN</h1>
+        </div>
+        <div class="form-input">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="User name">
+        </div>
+        <div class="form-input">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" placeholder="Password">
+        </div>
+        <button> LOG IN</button>
+        <div class="check">
+ 
+            <input type="checkbox" size="4%" class="ch">
+<label for="checkbox">remember me</label>
+        </div>
+        <div>
+            <a href="#">Forget Password?</a>
+        </div>
+
+    </form>
+</body>
+
+</html>
